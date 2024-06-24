@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="title">Full Registration Form</div>
+        <form action="#" method="get" onsubmit="return formvalidation()">
+            <div>
+                <div class="subhead1">Student's Info</div>
+                <div class="line"></div>
+                <div class="user-details">
+
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" id="firstname" placeholder="Enter your First Name">
+                        <span id="isfirstnameError"></span>
+                    </div>
+
+
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" id="lastname" placeholder="Enter your Last Name">
+                        <span id="islastnameError"></span>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Middle Name</span>
+                        <input type="text" id="middlename" placeholder="Enter your Middle Name">
+                        <span id="ismiddlenameError"></span>
+                    </div>
+                    `
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <select name="" class="select">
+                            <option value="">Select</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Prefer not to say</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">E-mail</span>
+                        <input type="text" id="email" placeholder="Enter your e-mail">
+                        <span id="isemailError"></span>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" id="phoneno" placeholder="Enter your number">
+                        <span id="isphonenoError"></span>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input type="text" id="address" placeholder="Enter your address">
+                        <span id="isaddressError"></span>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Status</span>
+                        <select name="" class="select">
+                            <option value="">Select</option>
+                            <option value="">Single</option>
+                            <option value="">Married</option>
+                            <option value="">Prefer not to say</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="subhead2">Sponsor / Parent</div>
+                    <div class="line2"> </div>
+                    <div class="user-details">
+
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" id="fullname" placeholder="Enter your full name">
+                            <span id="isfullnameError"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input type="text" id="phoneno2" placeholder="Enter your number">
+                            <span id="isphoneno2Error"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Home Address</span>
+                            <input type="text" id="homeaddress" placeholder="Enter your home address ">
+                            <span id="ishomeaddressError"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">E-mail</span>
+                            <input type="text" id="email2" placeholder="Enter your e-mail">
+                            <span id="isemail2Error"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Occupation</span>
+                            <input type="text" id="occupation" placeholder="Enter your occupation">
+                            <span id="isoccupationError"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Relationship</span>
+                            <select name="" class="select">
+                                <option value="">Select</option>
+                                <option value="">Parent</option>
+                                <option value="">Guardian</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="file-select">Passport</label>
+                            <input type="file" name="upload" id="no-input">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="subhead2">Biometric's</div>
+                    <div class="line2"> </div>
+                    <div class="user-details">
+
+                        <div class="input-box">
+                            <span class="details">Height</span>
+                            <input type="text" id="height" placeholder="Enter your height">
+                            <span id="isheightError"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Weight</span>
+                            <input type="text" id="weight" placeholder="Enter your height">
+                            <span id="isweightError"></span>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Color type</span>
+
+                            <select name="" class="select">
+                                <option value="">Select</option>
+                                <option value="">White</option>
+                                <option value="">Black</option>
+                                <option value="">Others</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="subhead2">Academic's</div>
+                    <div class="line2"> </div>
+                    <div class="user-details2">
+                        <div class="input-box">
+                            <span class="details">Exam type</span>
+                        </div>
+                        <div class="form-group">
+                            <select name="" id="">
+                                <option value="">Select</option>
+                                <option value="">W.A.E.C</option>
+                                <option value="">N.E.C.O</option>
+                                <option value="">G.C.E</option>
+                                <option value="">N.A.B.T.E.B</option>
+                                <option value="">Others</option>
+                            </select>
+                        </div>
+
+                        <div class="unique">
+                            <table>
+                                <tr>
+                                    <th>SUBJECT</th>
+                                    <th>GRADE</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub1">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="grades" id="selectGrade1">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub2">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="grades" id="selectGrade2">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub3">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="grades" id="selectGrade3">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub4">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="grades" id="selectGrade4">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub5">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="grades" id="selectGrade5">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub6">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="grades" id="selectGrade6">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub7">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="subjects" id="selectGrade7">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub8">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="subjects" id="selectGrade8">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="subjects" id="selectsub9">
+                                            <option value="">Select Subject</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="subjects" id="selectGrade9">
+                                            <option value="">Select Grade</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="button" value="Register" onclick="return formvalidation()">
+                </div>
+        </form>
+    </div>
+
+    <!-- <script src="bootstrap/js/bootstrap.js"></script> -->
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="form.js"></script>
+</body>
+
+</html>

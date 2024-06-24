@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Condensed, light;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: rgb(211, 226, 229)
+}
+
+#container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+#container .title {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: -20px
+}
+
+#container .subhead1 {
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+#container .subhead2 {
+    font-size: 25px;
+    font-weight: 300px;
+    margin-top: 50px;
+}
+
+#container .line {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(135deg, #363753, #9cacd8);
+}
+
+#container .line2 {
+    content: '';
+    position: relative;
+    bottom: -2px;
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(135deg, #363753, #9cacd8);
+}
+
+#container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box {
+    margin: 20px 0 9px 0;
+    width: calc(100% / 2 - 20px);
+    font-size: 18px;
+}
+
+.input-box2 {
+    margin: 20px 0 9px 0;
+    width: calc(100% / 2 - 10px);
+
+
+}
+
+.details {
+    display: block;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-family: "Open Sans", Condensed, light;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+input:focus {
+    border-color: #9b59b6;
+
+}
+
+#no-input {
+    border: none;
+    padding-left: 0px;
+
+
+}
+
+option {
+    font-family: "Open Sans", Condensed, light;
+
+}
+
+.unique {
+    font-family: "Open Sans", Condensed, light;
+}
+
+table,
+th,
+tr,
+td {
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    /* border-radius: 20px; */
+
+}
+
+input[type=submit] {
+    font-family: "Open Sans", Condensed, light;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.form-group select {
+    width: 20%;
+}
+
+.select {
+    width: 42%;
+    height: 20px;
+    text-align: center;
+}
+
+table select {
+    width: 100%;
+    height: 20px;
+    outline: none;
+    font-family: "Open Sans", Condensed, light;
+    border: none;
+}
+
+.button {
+    height: 45px;
+    margin: 45px 0px;
+}
